@@ -1,12 +1,10 @@
 #! -*- coding:utf-8 -*-
 # ~> CarlosCoffee
-# ~> Gerador de wordlists
-# ~> v.0.1
-# ~> Ajude nas melhoras também! :)
-#
-from sys import argv, exit # Importar argv para os argumentos e exit para encerrar o programa quando nescessario.
-from random import randint # Randint para gerar um inteiro sendo a posicao da lista de argvs
-from os import path # path para saber se o arquivo wordlist.txt existe. ( Pra que?, não sei kkk )
+
+
+from sys import argv, exit
+from random import randint
+from os import path
 
 teste = argv # Argumentos de entrada!
 senhas_criadas = [] # Senhas que serão criadas
